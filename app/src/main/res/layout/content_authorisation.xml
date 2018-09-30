@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trialchain.ibm.trialchain_patient.messaging.AuthorisationActivity"
+    tools:showIn="@layout/activity_authorisation">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okay. Now have the user ask for auth"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="143dp"
+
+        android:layout_marginBottom="115dp"
+        android:layout_above="@+id/authorise"
+        android:layout_alignStart="@+id/authorise" />
+
+    <Button
+        android:id="@+id/authorise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authorise"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="230dp"
+        android:layout_marginStart="78dp"
+        android:layout_alignBaseline="@+id/dismiss"
+        android:layout_alignBottom="@+id/dismiss"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dismiss"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="230dp"
+        android:layout_marginBottom="182dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView8" />
+</RelativeLayout>

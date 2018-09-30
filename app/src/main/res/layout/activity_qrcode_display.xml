@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_qrcode_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ibm.trialchain.com.example.ishankhaparde.QRCodeDisplayActivity">
+
+    <TextView
+        android:text="QR Code"
+        android:layout_width="wrap_content"
+        android:textSize="36dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/qr_code_alias_label"
+        android:layout_above="@+id/qr_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_qr_code"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp"
+        android:id="@+id/qr_code" />
+
+    <Button
+        android:id="@+id/scanQRCodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:text="Scan QR code" />
+</RelativeLayout>

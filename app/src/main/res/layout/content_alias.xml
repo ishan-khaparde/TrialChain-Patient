@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trialchain.ibm.trialchain_patient.AliasActivity"
+    tools:showIn="@layout/activity_alias">
+
+
+    <EditText
+        android:id="@+id/aliasActivityField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="98dp"
+        android:ems="10"
+        android:hint="Alias here"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:id="@+id/aliasActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="180dp"
+        android:layout_marginTop="109dp"
+        android:layout_below="@+id/aliasActivityField"
+        android:layout_alignLeft="@+id/aliasActivityField"
+        android:layout_alignStart="@+id/aliasActivityField"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+
+    <TextView
+        android:id="@+id/addAliasLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Adding new record"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/aliasActivityButton" />
+</RelativeLayout>

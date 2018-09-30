@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:libsodium-jni-release">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libsodium-jni-release.aar/08ad9601b2890da6db6f154e4147dc47/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libsodium-jni-release.aar/08ad9601b2890da6db6f154e4147dc47/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

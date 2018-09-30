@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trialchain.ibm.trialchain_patient.MessageReplyActivity"
+    tools:showIn="@layout/activity_message_thread">
+
+
+    <EditText
+        android:id="@+id/messageReply"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/replyToMessage"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:hint="Write message here"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/replyRecordID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/replyToMessage"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/replyToMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="66dp"
+        android:layout_below="@+id/replyRecordID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="55dp" />
+</RelativeLayout>
