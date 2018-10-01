@@ -1,5 +1,5 @@
-#IBM Trailchain
-Welcome to the Trailchain Patient Mobile application
+# IBM Trialchain
+Welcome to the Trialchain Patient Mobile application
 
 This application was built to serve as front end for the patients who would interact with the system. The Trailchain project is built to provide an auditable trail of health records, and manage patient's participation in clinical trails. The patients can use the application to :
  1) View the records added by the doctor / hospital staff
